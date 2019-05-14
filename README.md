@@ -1,3 +1,6 @@
+# infund
+InFund is an app dedicated to opportunists trying to find investors for their endeavours
+
 THEME: Landing - Free Bootstrap 4 Template
 AUTHOR: uiCookies.com
 LICENSE: Under Creative Commons 3.0 (uiCookies.com/license)
