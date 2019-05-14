@@ -8,7 +8,7 @@ app.use('/', express.static(__dirname));
 app.use('/css', express.static(__dirname + "/public/css/"));
 app.use('/scss', express.static(__dirname + "/public/scss/"));
 app.use('/fonts', express.static(__dirname + "/public/fonts/"));
-app.use('/img', express.static(__dirname + "/public/img/"));
+app.use('/images', express.static(__dirname + "/public/images/"));
 app.use('/js', express.static(__dirname + "/public/js/"));
 
 
