@@ -55,6 +55,9 @@
       .pb_navbar.scrolled.pb_scrolled-light ul li a.active{
         color: rgb(61, 155, 71) !important;
       }
+      .pb_accordion .item > a[aria-expanded="true"]{
+        color: rgb(61, 155, 71) !important;
+      }
     </style>
 
 	</head>
@@ -70,7 +73,6 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-features">Why InFund?</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-reviews">Reviews</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-faq">FAQ</a></li>
             <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0"><a class="nav-link" href="http://infund.herokuapp.com/signin" target="_blank"><span class="pb_rounded-4 px-4">Get Started</span></a></li>
           </ul>
@@ -146,7 +148,6 @@
     <!-- END section -->
 
     <section class="pb_section pb_slant-light">
-
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mb-5">
@@ -205,117 +206,7 @@
     </section>
     <!-- END section -->
 
-    <section class="pb_section bg-light pb_slant-white pb_pb-250" id="section-reviews">
-      <div class="container">
-        <div class="row justify-content-center mb-1">
-          <div class="col-md-6 text-center mb-5">
-            <h5 class="text-uppercase pb_font-15 mb-2 pb_color-dark-opacity-3 pb_letter-spacing-2"><strong>Reviews</strong></h5>
-            <h2>Good Review From Good People</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md">
-            <div class="pb_slide_testimonial_sync_v1">
-              <div class="pb_slider_content js-pb_slider_content2">
-                <div>
-                  <div class="media d-block text-center testimonial_v1 pb_quote_v2">
-                    <div class="media-body">
-                      <div class="quote">&ldquo;</div>
-                      <blockquote class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</blockquote>
-                      <p>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star-half text-warning"></i>
-                        <i class="ion-ios-star-outline text-warning"></i>
-                      </p>
-                      <h3 class="heading">Garry Alexander</h3>
-                      <span class="subheading">@garry</span>
-
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="media d-block text-center testimonial_v1 pb_quote_v2">
-                    <div class="media-body">
-                      <div class="quote">&ldquo;</div>
-                      <blockquote class="mb-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</blockquote>
-                      <p>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star-half text-warning"></i>
-                        <i class="ion-ios-star-outline text-warning"></i>
-                      </p>
-                      <h3 class="heading">Deborah Smith</h3>
-                      <span class="subheading">@deborah</span>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="media d-block text-center testimonial_v1 pb_quote_v2">
-                    <div class="media-body">
-                      <div class="quote">&ldquo;</div>
-                      <blockquote class="mb-5">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</blockquote>
-                      <p>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star-half text-warning"></i>
-                        <i class="ion-ios-star-outline text-warning"></i>
-                      </p>
-                      <h3 class="heading">James Robertson</h3>
-                      <span class="subheading">@james</span>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="media d-block text-center testimonial_v1 pb_quote_v2">
-                    <div class="media-body">
-                      <div class="quote">&ldquo;</div>
-                      <blockquote class="mb-5">The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</blockquote>
-                      <p>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star text-warning"></i>
-                        <i class="ion-ios-star-half text-warning"></i>
-                        <i class="ion-ios-star-outline text-warning"></i>
-                      </p>
-                      <h3 class="heading">Marie Gibson</h3>
-                      <span class="subheading">@marie</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-6 mx-auto">
-                  <div class="pb_slider_nav js-pb_slider_nav2">
-                    <div class="author">
-                      <img class="img-fluid rounded-circle" src="images/person_1.jpg" alt="Generic placeholder image">
-                    </div>
-                    <div class="author">
-                      <img class="img-fluid rounded-circle" src="images/person_5.jpg" alt="Generic placeholder image">
-                    </div>
-                    <div class="author">
-                      <img class="img-fluid rounded-circle" src="images/person_2.jpg" alt="Generic placeholder image">
-                    </div>
-                    <div class="author">
-                      <img class="img-fluid rounded-circle" src="images/person_6.jpg" alt="Generic placeholder image">
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- END sync_v1 -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
-
-    <section class="pb_section pb_slant-white" id="section-faq">
+    <section class="pb_section bg-light pb_slant-white pb_pb-250" id="section-faq">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-6 text-center mb-5">
@@ -327,44 +218,52 @@
           <div class="col-md">
             <div id="pb_faq" class="pb_accordion" data-children=".item">
               <div class="item">
-                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq1" aria-expanded="true" aria-controls="pb_faq1" class="pb_font-22 py-4">What is Instant?</a>
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq1" aria-expanded="true" aria-controls="pb_faq1" class="pb_font-22 py-4">What is InFund?</a>
                 <div id="pb_faq1" class="collapse show" role="tabpanel">
                   <div class="py-3">
-                  <p>Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                  <p>InFund is an app that supports early business starters by using crowdfunding investments to provide capital for them. We provide a platform for people’s ideas to be noticed by investors, and hopefully, realised into big startups.</p>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq2" aria-expanded="false" aria-controls="pb_faq2" class="pb_font-22 py-4">Is this available to my country?</a>
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq2" aria-expanded="false" aria-controls="pb_faq2" class="pb_font-22 py-4">How do I use this app?</a>
                 <div id="pb_faq2" class="collapse" role="tabpanel">
                   <div class="py-3">
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p>Simply access the website, then register yourself as an investor and/or a business starter. Feel free to explore the website, as it is designed to provide comfort for users. If you have any difficulties, scroll down to the bottom, and find the help page. We would be more than happy to assist you. </p>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq3" aria-expanded="false" aria-controls="pb_faq3" class="pb_font-22 py-4">How do I use the features of Instant App?</a>
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq3" aria-expanded="false" aria-controls="pb_faq3" class="pb_font-22 py-4">Is this available for everyone?</a>
                 <div id="pb_faq3" class="collapse" role="tabpanel">
                   <div class="py-3">
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                    <p>Currently it is only available for citizens of Indonesia, as the registration process requires personal identity cards, due to regulations and safety reasons.</p>
                   </div>
                 </div>
               </div>
               <div class="item">
-                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq4" aria-expanded="false" aria-controls="pb_faq4" class="pb_font-22 py-4">How much do the Instant App cost?</a>
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq4" aria-expanded="false" aria-controls="pb_faq4" class="pb_font-22 py-4">Is my money safe?</a>
                 <div id="pb_faq4" class="collapse" role="tabpanel">
                   <div class="py-3">
-                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+                    <p>Yes! Your funds would go to a safe deposit when investing on proposal(s). If due to any reasons the proposed project does not go through (including but not limited to  fraud problems, does not reach target, etc.), the investments would be returned to their respective owners.</p>
                   </div>
                 </div>
               </div>
 
               <div class="item">
-                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq5" aria-expanded="false" aria-controls="pb_faq5" class="pb_font-22 py-4">I have technical problem, who do I email?</a>
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq5" aria-expanded="false" aria-controls="pb_faq5" class="pb_font-22 py-4">How much would InFund cost?</a>
                 <div id="pb_faq5" class="collapse" role="tabpanel">
                   <div class="py-3">
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. </p>
+                    <p>More or less <b>Free</b>! inFund would not charge you for registering, uploading proposals, or investing. However, when a project is funded, and the funds are delivered to the starter, then we would deduct a small percentage fee for service charges and tax.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <a data-toggle="collapse" data-parent="#pb_faq" href="#pb_faq6" aria-expanded="false" aria-controls="pb_faq6" class="pb_font-22 py-4">I’m having difficulties, what do I do?</a>
+                <div id="pb_faq6" class="collapse" role="tabpanel">
+                  <div class="py-3">
+                    <p>Feel free to contact us at our website. Scroll down to the bottom of any page for access to the terms and conditions, contact support, or anything that would be useful for you. Alternatively, you can contact our admin at support@infund.com.</p>
                   </div>
                 </div>
               </div>
@@ -394,7 +293,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p class="pb_font-14">&copy; 2019. All Rights Reserved. <br>  <a href="https://uicookies.com/bootstrap-html-templates/">Bootstrap Templates</a> by uiCookies</p>
+            <p class="pb_font-14">&copy; 2019. All Rights Reserved. <br>  <a style="color: limegreen" href="https://uicookies.com/bootstrap-html-templates/">Bootstrap Templates</a> by uiCookies</p>
           </div>
         </div>
       </div>
