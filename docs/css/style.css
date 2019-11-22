@@ -1166,7 +1166,7 @@ a {
           color: #1d82ff !important; }
       .pb_navbar.scrolled.pb_scrolled-light ul li.cta-btn > a > span {
         border: none;
-        background: #00CA4C;
+        background: rgb(218 , 83, 83);
         color: #fff; }
 
 .pb_offcanvas-nav_v1 {
